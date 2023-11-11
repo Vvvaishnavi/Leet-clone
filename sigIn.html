@@ -1,0 +1,134 @@
+<!--HTML,CSS & Javascript code included for Sign In page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        body {
+            font-family:'Times New Roman', Times, serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 50px;
+        }
+        form {
+            max-width: 300px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border-radius:  4px;
+            border-color: white;
+            
+        }
+        button {
+            background-color: #3b3b3b;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #646464;
+        }
+        nav{
+           left:1px;
+            height: 50px;
+            background-color: rgb(210, 210, 210); /* Set the text color */
+            width: 100%;
+            padding: 14px 16px; /* Add some padding */
+           position: absolute;
+            margin-top: 0px;
+            top:1px;
+        }
+        form{
+            margin-top: 100px;
+        }
+        .logo{
+            position: absolute;
+            left:30px;
+        }
+        .signin{
+            text-decoration: none;
+            color: #434743;
+            float: right;
+            font-size: small;
+        }
+        .forgot{
+            text-decoration: none;
+            color: #434743;
+            float: left;
+            font-size: small;
+            
+        }
+        
+        
+        .under-sign{
+color: gray;
+font-family: 'Times New Roman', Times, serif;
+font-size: smaller;
+        }
+        .under-sign-sign a{
+            color: gray;
+font-family: 'Times New Roman', Times, serif;
+font-size: smaller;
+text-decoration: underline;
+cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+    
+        <img src="https://leetcode.com/static/images/LeetCode_logo.png" height="50" width="50" alt="" class="logo">
+      
+    </nav>
+    <section>
+    <form>
+        <h2>Sign In</h2>
+        <label for="username"></label>
+        <input type="text" id="username" name="username" required placeholder="Username">
+
+        <label for="password"></label>
+        <input type="password" id="password" name="password" required placeholder="Password">
+
+         <a href="forgot-pass" target="_blank" class="forgot">Forgot password?</a>
+         <a href="signin.html" target="_blank" class="signin">Sign Up</a><br><br><br>
+        <button type="submit">Sign In</button>
+    </form>
+    </section>
+    <p class="under-sign">
+        This site is protected under ReCaptcha and certain privacy policy
+    </p>
+    <p class="under-sign-sign"><a href="">Terms and Conditions</p></a>
+    <section>
+
+    </section>
+    <script>
+        function validateForm() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            
+            if (username === "" || password === "") {
+                alert("Both username and password are required");
+            } else {
+                alert("Sign-up successful!\nUsername: " );
+                
+            }
+        }
+    </script>
+</body>
+</html>

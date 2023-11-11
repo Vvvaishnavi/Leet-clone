@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #23292f;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    height: 500px;
+  }
+  p{
+    color: grey;
+  }
+  nav ul {
+    list-style-type: none;
+    
+    color: #f4f4f4;
+  }
+  .leet{
+    position: absolute;
+    left:650px;
+    top:300px
+  }
+  .exp{
+    display: block; 
+    margin-left: auto;
+     margin-right: auto; 
+     width: 20%;
+    
+  }
+  h2{
+    color: teal;
+  }
+  nav ul li {
+    display: inline;
+    color: aliceblue;
+    
+  }
+  button{
+    background-color: teal;
+    height: 40px;
+    border-radius: 20px;
+  }
+  nav li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  button:hover{
+    cursor: pointer;
+    background-color:rgb(4, 79, 79);
+  }
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #232a32;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .hero {
+    text-align: center;
+  }
+  
+  .featured-problems {
+    margin-top: 30px;
+  }
+  
+ .get-started a{
+    color: teal;
+    text-decoration: none;
+ }
+.qust{
+    text-align: center;
+}
